@@ -1,0 +1,28 @@
+.all{
+    background-color: #eb2b64;
+    border-radius: 5px;
+    padding: 20px;
+}
+.col{
+    float: left;
+    width: 33%;
+    height: 90%;
+}
+.body1:after{
+    content: "";
+    clear: both;
+    display: block;
+}
+@media ( max-width: 800px){
+    .col{
+        width: 100%;
+    }
+}
+p{
+    text-align: left;
+    width: 90%;
+    color: white;
+}
+h1{
+    color: white;
+}
